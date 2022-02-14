@@ -1,13 +1,13 @@
 import React from "react";
 import './App.css';
-import ClassPrototype from './R012_Class&Prototype.js';
+import ArrowFunc from './R013_ArrowFunction.js';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>ClassPrototype 적용하기</p>
-      <ClassPrototype />
+      <p>ArrowFunc 적용하기</p>
+      <ArrowFunc />
     </div>
   );
 }
