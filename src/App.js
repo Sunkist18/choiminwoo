@@ -1,13 +1,13 @@
 import React from "react";
 import './App.css';
-import ArrowFunc from './R013_ArrowFunction.js';
+import ForEach from './R014_ForEach';
 
 function App() {
   return (
     <div>
       <h1>Start React 200!</h1>
-      <p>ArrowFunc 적용하기</p>
-      <ArrowFunc />
+      <p>ForEach 적용하기</p>
+      <ForEach />
     </div>
   );
 }
