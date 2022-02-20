@@ -1,13 +1,23 @@
-import React from "react";
-import "./App.css";
-import Props from "./R017_Props";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>Start React 200!</h1>
-      <p>Props 적용하기</p>
-      <Props props_val="THIS IS PROPS" />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
